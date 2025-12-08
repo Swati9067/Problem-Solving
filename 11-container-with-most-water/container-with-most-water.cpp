@@ -6,7 +6,7 @@ public:
         int j = h.size()-1;
 
         while(i<=j){
-            max_area = max(max_area, min(h[j],h[i])* (j-i));
+            max_area = max(max_area, min(h[j],h[i])* (j-i));//operator precedence
             if(h[i]<=h[j]) i++;
             else j--;
         }
