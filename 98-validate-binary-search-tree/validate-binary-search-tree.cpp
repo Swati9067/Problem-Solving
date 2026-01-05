@@ -29,6 +29,6 @@ public:
         for(int i =0; i<sorted.size()-1; i++){
            if(sorted [i]>=sorted[i+1]) return false;
         }
-        return true;;
+        return true;
     }
 };
