@@ -8,7 +8,7 @@ public:
 
         while(l<=h){
             int mid = l + (h - l) / 2;
-            long long temp = 1LL * mid * mid;
+            long long temp =  1ll* mid * mid;
 
             if(temp == x){
                 ans = mid;
